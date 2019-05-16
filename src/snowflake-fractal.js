@@ -40,7 +40,6 @@ function drawSnowFlake(context, width, height, ratius) {
 
         drawSnowFlakeLine(context, x0, y0, angle0, length, 4);
     }
-
-    context.strokeStyle = "#1670ff";
+    
     context.stroke();
 }
